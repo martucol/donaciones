@@ -1,0 +1,38 @@
+body {
+  background-color:indianred;
+}
+
+#container {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-family:  'Pinyon Script', cursive;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.donar {
+  display: block;
+  margin: 10px auto;
+  padding: 3px 10px;
+  font-size: 2 em;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  background:lightgoldenrodyellow;
+}
+
+.amor {
+  color: red;
+}
+
+.code {
+  font-family: monospace;
+}
