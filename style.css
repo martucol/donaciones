@@ -6,7 +6,6 @@ body {
   margin: auto;
   width: 80%;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -20,26 +19,33 @@ h1 {
 main {
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .texto {
   width: 70%;
-  padding: 40px;
+  padding: 0px 40px;
   text-align: justify;
+  font-size: 1em;
+  color:#222;
 }
 
 .texto img {
   width: 80%;
   display: block;
   margin: auto;
+  margin-top: 40px;
 }
 
 .links {
-  width: 30%;
+  width: 29%;
 }
 
 @media only screen and (max-width: 770px) {
+  main {
+    flex-wrap: wrap;
+  }
+  
   .texto {
     order: 2;
     width: 100%;
@@ -61,7 +67,7 @@ main {
 .donar {
   display: block;
   margin: 25px auto;
-  padding: 3px 10px;
+  padding: 10px;
   font-size: 1.7em;
   font-weight: 700;
   text-decoration: none;
@@ -69,20 +75,14 @@ main {
   background-color:rgb(228, 139, 139);
 }
 
-.contacto {
+#contacto {
   display: block;
+  color:#222;
   margin: 40px auto;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
-.cooperativistas {
-  font-size: 1em;
-}
-
-.amor {
-  color: red;
-}
-
-.code {
-  font-family: monospace;
+#contacto a {
+  font-weight: bolder;
+  text-decoration: none;
 }
